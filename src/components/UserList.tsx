@@ -14,7 +14,7 @@ const UserList = () => {
 	}, [getUsers, users])
 
 	return (
-		<div className="grid w-full max-w-7xl place-items-center gap-16 lg:grid-cols-3">
+		<div className="grid w-full max-w-7xl flex-1 place-items-center gap-16 lg:grid-cols-3">
 			{users.map(user => (
 				<UserCard key={user.id} user={user} />
 			))}

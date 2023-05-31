@@ -19,7 +19,7 @@ const UserCard = ({ user }: Props) => {
 				alt={`${user.first_name} ${user.last_name}`}
 				width={100}
 				height={100}
-				priority
+				loading="lazy"
 			/>
 			<div className="py-5 text-center">
 				<a
