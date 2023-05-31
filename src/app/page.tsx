@@ -2,7 +2,7 @@ import Header from '@/components/Header'
 import LoadMoreButton from '@/components/LoadMoreButton'
 import UserList from '@/components/UserList'
 
-export default async function Home() {
+export default function Home() {
 	return (
 		<main className="flex min-h-screen flex-col items-center justify-between gap-12 p-24">
 			<Header />
